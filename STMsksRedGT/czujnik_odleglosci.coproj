@@ -25,6 +25,7 @@
         <Option name="nostartfiles" value="1"/>
         <Option name="LTO" value="0"/>
         <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
         <LinkedLibraries/>
         <MemoryAreas debugInFlashNotRAM="1">
           <Memory name="IROM1" type="ReadOnly" size="0x00100000" startValue="0x08000000"/>
@@ -74,6 +75,8 @@
     <Component id="504" name="GPIO" path="" type="2"/>
     <Component id="513" name="TIM" path="" type="2"/>
     <Component id="522" name="DCMI" path="" type="2"/>
+    <Component id="524" name="MISC" path="" type="2"/>
+    <Component id="526" name="SYSCFG" path="" type="2"/>
   </Components>
   <Files>
     <File name="cmsis_lib/source/stm32f4xx_gpio.c" path="cmsis_lib/source/stm32f4xx_gpio.c" type="1"/>
@@ -81,34 +84,38 @@
     <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>
     <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
-    <File name="cmsis_lib/include/defines.h" path="../../../../AppData/Local/Temp/Rar$DRa0.588/defines.h" type="1"/>
+    <File name="cmsis_lib/include/stm32f4xx_syscfg.h" path="cmsis_lib/include/stm32f4xx_syscfg.h" type="1"/>
+    <File name="cmsis_lib/include/defines.h" path="cmsis_lib/include/defines.h" type="1"/>
     <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
     <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
     <File name="cmsis_boot/system_stm32f4xx.c" path="cmsis_boot/system_stm32f4xx.c" type="1"/>
     <File name="cmsis/core_cm4.h" path="cmsis/core_cm4.h" type="1"/>
-    <File name="cmsis_lib/source/tm_stm32f4_gpio.c" path="../../../../AppData/Local/Temp/Rar$DRa0.681/tm_stm32f4_gpio.c" type="1"/>
-    <File name="cmsis_lib/source/tm_stm32f4_delay.c" path="../../../../AppData/Local/Temp/Rar$DRa0.012/tm_stm32f4_delay.c" type="1"/>
+    <File name="cmsis_lib/source/tm_stm32f4_gpio.c" path="cmsis_lib/source/tm_stm32f4_gpio.c" type="1"/>
+    <File name="cmsis_lib/source/tm_stm32f4_delay.c" path="cmsis_lib/source/tm_stm32f4_delay.c" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_dcmi.h" path="cmsis_lib/include/stm32f4xx_dcmi.h" type="1"/>
-    <File name="cmsis_lib/source/tm_stm32f4_timer_properties.c" path="../../../../AppData/Local/Temp/Rar$DRa0.012/tm_stm32f4_timer_properties.c" type="1"/>
-    <File name="cmsis_lib/include/attributes.h" path="../../../../AppData/Local/Temp/Rar$DRa0.314/attributes.h" type="1"/>
+    <File name="cmsis_lib/source/tm_stm32f4_timer_properties.c" path="cmsis_lib/source/tm_stm32f4_timer_properties.c" type="1"/>
+    <File name="cmsis_lib/source/misc.c" path="cmsis_lib/source/misc.c" type="1"/>
     <File name="cmsis" path="" type="2"/>
-    <File name="cmsis_lib/include/tm_stm32f4_delay.h" path="../../../../AppData/Local/Temp/Rar$DRa0.314/tm_stm32f4_delay.h" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_delay.h" path="cmsis_lib/include/tm_stm32f4_delay.h" type="1"/>
+    <File name="cmsis_lib/include/attributes.h" path="cmsis_lib/include/attributes.h" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_tim.h" path="cmsis_lib/include/stm32f4xx_tim.h" type="1"/>
     <File name="cmsis_lib" path="" type="2"/>
     <File name="cmsis_lib/source" path="" type="2"/>
-    <File name="cmsis_lib/include/tm_stm32f4_timer_properties.h" path="../../../../AppData/Local/Temp/Rar$DRa0.314/tm_stm32f4_timer_properties.h" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_timer_properties.h" path="cmsis_lib/include/tm_stm32f4_timer_properties.h" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_tim.c" path="cmsis_lib/source/stm32f4xx_tim.c" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_gpio.h" path="cmsis_lib/include/stm32f4xx_gpio.h" type="1"/>
+    <File name="cmsis_lib/include/misc.h" path="cmsis_lib/include/misc.h" type="1"/>
     <File name="cmsis_boot/stm32f4xx_conf.h" path="cmsis_boot/stm32f4xx_conf.h" type="1"/>
     <File name="cmsis_boot/system_stm32f4xx.h" path="cmsis_boot/system_stm32f4xx.h" type="1"/>
     <File name="cmsis_lib/include" path="" type="2"/>
-    <File name="cmsis_lib/include/tm_stm32f4_gpio.h" path="../../../../AppData/Local/Temp/Rar$DRa0.116/tm_stm32f4_gpio.h" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_gpio.h" path="cmsis_lib/include/tm_stm32f4_gpio.h" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_dcmi.c" path="cmsis_lib/source/stm32f4xx_dcmi.c" type="1"/>
+    <File name="cmsis_lib/include/tm_stm32f4_hcsr04.h" path="cmsis_lib/include/tm_stm32f4_hcsr04.h" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_rcc.h" path="cmsis_lib/include/stm32f4xx_rcc.h" type="1"/>
-    <File name="cmsis_lib/include/tm_stm32f4_hcsr04.h" path="../../../../AppData/Local/Temp/Rar$DRa0.829/tm_stm32f4_hcsr04.h" type="1"/>
-    <File name="cmsis_lib/source/tm_stm32f4_hcsr04.c" path="../../../../AppData/Local/Temp/Rar$DRa0.447/tm_stm32f4_hcsr04.c" type="1"/>
+    <File name="cmsis_lib/source/tm_stm32f4_hcsr04.c" path="cmsis_lib/source/tm_stm32f4_hcsr04.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f4xx_syscfg.c" path="cmsis_lib/source/stm32f4xx_syscfg.c" type="1"/>
     <File name="main.c" path="main.c" type="1"/>
   </Files>
 </Project>

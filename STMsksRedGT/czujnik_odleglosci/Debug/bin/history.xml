@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=czujnik_odleglosci.map -O0 --gc-sections -LC:\Programy\CooCox\CoIDE\configuration\ProgramData\czujnik_odleglosci -TC:\Programy\CooCox\CoIDE\configuration\ProgramData\czujnik_odleglosci/arm-gcc-link.ld -g">
+      <target file="czujnik_odleglosci.elf" lastModified="1544f40c84c">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="1544f40c0e7"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1544f294128"/>
+         <source file="..\obj\main.o" lastModified="1544f40c162"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1544f40c1f8"/>
+         <source file="..\obj\tm_stm32f4_hcsr04.o" lastModified="1544f40c287"/>
+         <source file="..\obj\stm32f4xx_dcmi.o" lastModified="1544f40c2f4"/>
+         <source file="..\obj\tm_stm32f4_delay.o" lastModified="1544f40c36d"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1544f40c3da"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1544f40c432"/>
+         <source file="..\obj\misc.o" lastModified="1544f40c486"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="1544f40c4f0"/>
+         <source file="..\obj\tm_stm32f4_timer_properties.o" lastModified="1544f40c557"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1544f40c65b"/>
+      </target>
+   </processor>
+</history>

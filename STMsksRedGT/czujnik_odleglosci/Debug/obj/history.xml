@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_lib\include -I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis -I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_boot -I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej -I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_lib -I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci">
+      <target file="stm32f4xx_gpio.o" lastModified="1544f40c3da">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="153af733ad3"/>
+      </target>
+      <target file="tm_stm32f4_hcsr04.o" lastModified="1544f40c287">
+         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_hcsr04.c" lastModified="14c628e4040"/>
+      </target>
+      <target file="tm_stm32f4_timer_properties.o" lastModified="1544f40c557">
+         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_timer_properties.c" lastModified="1488e449b75"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="1544f40c65b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="153afb61d01"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1544f40c432">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="153af75bb17"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="1544f40c4f0">
+         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_gpio.c" lastModified="14de25630e8"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1544f294128">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="153af732a12"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="1544f40c0e7">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="1544f3fd408"/>
+      </target>
+      <target file="main.o" lastModified="1544f40c162">
+         <source file="..\..\..\main.c" lastModified="1544f40b4b8"/>
+      </target>
+      <target file="tm_stm32f4_delay.o" lastModified="1544f40c36d">
+         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_delay.c" lastModified="14fdb0eed12"/>
+      </target>
+      <target file="stm32f4xx_dcmi.o" lastModified="1544f40c2f4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dcmi.c" lastModified="153af736ad9"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1544f40c1f8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="153af733aea"/>
+      </target>
+      <target file="misc.o" lastModified="1544f40c486">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1544f3fa35c"/>
+      </target>
+   </processor>
+</history>

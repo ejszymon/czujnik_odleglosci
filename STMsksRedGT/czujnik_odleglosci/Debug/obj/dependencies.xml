@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_lib\include /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_boot /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_lib /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci">
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="1544f3fd406">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="153af7322e1">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="153af731edf">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\tm_stm32f4_hcsr04.c" lastModified="14c628e4040">
+         <include file="..\..\..\cmsis_lib\include\tm_stm32f4_hcsr04.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\defines.h" lastModified="14927dc8f9d">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\attributes.h" lastModified="149ebc5b110">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h" lastModified="153af736ad4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="153af732a2c">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="153af75bb17">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="153afb61d01">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="153af733ace">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="1544f3fa358">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="153af737459">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="153af801362">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\tm_stm32f4_timer_properties.h" lastModified="149f34a3681">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="153afb61d01">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\tm_stm32f4_hcsr04.h" lastModified="14c628cec68">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\defines.h"/>
+         <include file="..\..\..\cmsis_lib\include\tm_stm32f4_delay.h"/>
+         <include file="..\..\..\cmsis_lib\include\tm_stm32f4_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\tm_stm32f4_delay.h" lastModified="152630afadf">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\defines.h"/>
+         <include file="..\..\..\cmsis_lib\include\attributes.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\tm_stm32f4_timer_properties.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dcmi.c" lastModified="153af736ad9">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="153af7322da">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="153af733aea">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\tm_stm32f4_delay.c" lastModified="14fdb0eed12">
+         <include file="..\..\..\cmsis_lib\include\tm_stm32f4_delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="153af732a12">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\tm_stm32f4_gpio.h" lastModified="1525418439d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="153af733ad3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="153af7322cd">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\tm_stm32f4_timer_properties.c" lastModified="1488e449b75">
+         <include file="..\..\..\cmsis_lib\include\tm_stm32f4_timer_properties.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="153af733ae4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\tm_stm32f4_gpio.c" lastModified="14de25630e8">
+         <include file="..\..\..\cmsis_lib\include\tm_stm32f4_gpio.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\..\Users\szymon\AppData\Local\Temp\Rar$DRa0.829 /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_lib\include /I..\..\..\..\..\..\Users\szymon\AppData\Local\Temp\Rar$DRa0.314 /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_boot /I..\..\..\..\..\..\Users\szymon\AppData\Local\Temp /I..\..\..\..\..\..\Users\szymon\AppData\Local\Temp\Rar$DRa0.116 /I..\..\..\..\..\..\Users\szymon\AppData\Local\Temp\Rar$DRa0.588 /I..\..\..\..\..\..\Users\szymon\AppData\Local /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_lib /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci">
+      <source file="..\..\..\cmsis_lib\include\defines.h" lastModified="14927dc8f9d">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\attributes.h" lastModified="149ebc5b110">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h" lastModified="153af736ad4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="153af732a2c">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="153af75bb17">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="153afb61d01">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="153af733ace">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\tm_stm32f4_timer_properties.h" lastModified="149f34a3681">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="153afb61d01">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dcmi.c" lastModified="153af736ad9">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="153af733aea">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="153af732a12">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="153af733ad3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="153af733ae4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\..\Users\szymon\Desktop /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_lib\include /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_boot /I..\..\..\..\..\..\Users\szymon /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_lib /I..\..\..\..\..\..\Users /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci">
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h" lastModified="153af736ad4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="153af732a2c">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="153af75bb17">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="153afb61d01">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="153af733ace">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="153afb61d01">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dcmi.c" lastModified="153af736ad9">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="153af733aea">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="153af732a12">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="153af733ad3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="153af733ae4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\..\Users\szymon\AppData\Local\Temp\Rar$DRa0.829 /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_lib\include /I..\..\..\..\..\..\Users\szymon\AppData\Local\Temp\Rar$DRa0.314 /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_boot /I..\..\..\..\..\..\Users\szymon\AppData\Local\Temp /I..\..\..\..\..\..\Users\szymon\AppData\Local\Temp\Rar$DRa0.588 /I..\..\..\..\..\..\Users\szymon\AppData\Local /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci\cmsis_lib /I..\..\..\..\..\..\Users\szymon\Documents\Semestr IV\podstawy techniki mikroprocesorowej\czujnik_odleglosci">
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h" lastModified="153af736ad4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="153af732a2c">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="153af75bb17">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="153af733ace">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="153afb61d01">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dcmi.c" lastModified="153af736ad9">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="153af733aea">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="153af732a12">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="153af733ad3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="153af733ae4">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>
